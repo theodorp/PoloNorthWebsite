@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polo North Securities Research</title>
+    <description>Equity research on fundamentally sound healthcare companies.</description>
+    <link>http://theodorp.github.io</link>
+    <atom:link href="http://theodorp.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Auris Medical Due Diligence</title>
+		<description>
+		  A PNS Production - 
+		  Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who...
+		</description>
+        <pubDate>Sat, 09 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://theodorp.github.io/blog/auris-dd</link>
+        <guid isPermaLink="true">http://theodorp.github.io/blog/auris-dd</guid>
+		
+		  
+		
+		
+		  
+		
+      </item>
+    
+      <item>
+        <title>Older Post</title>
+		<description>
+		  This post is old. - 
+		  You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. Here is some bold text Here is a secondary heading How about a yummy crepe? Here’s a code chunk: x &amp;lt;- 5 + 10 print(x) And here is some code with syntax highlighting 1...
+		</description>
+        <pubDate>Fri, 20 Feb 2015 00:00:00 -0500</pubDate>
+        <link>http://theodorp.github.io/blog/test-markdown</link>
+        <guid isPermaLink="true">http://theodorp.github.io/blog/test-markdown</guid>
+		
+		  
+		
+		
+		  
+		
+      </item>
+    
+  </channel>
+</rss>
