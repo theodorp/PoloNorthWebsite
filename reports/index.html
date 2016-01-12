@@ -3,33 +3,32 @@ layout: page
 title: Our Equity Reports
 ---
 
-<div class="index-posts-title">Equity Reports:</div>
-
-<div class="posts-list">
-  {% for post in paginator.posts %}
+<ul class="posts">  
+  {% for post in site.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-  
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">
-      {{ post.subtitle }}
-    </h3>
-    {% endif %}  
+      <h2 class="post-title">{{ post.title }}</h2>
+    
+      {% if post.subtitle %}
+      <h3 class="post-subtitle">
+        {{ post.subtitle }}
+      </h3>
+      {% endif %}  
     </a>
 
     <p class="post-meta">
       Posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
-  
+
     <div class="post-entry">
       {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read More]</a>
     </div>
-  
+
    </article>
   {% endfor %}
-</div>
+</ul>
+
 
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
@@ -45,3 +44,16 @@ title: Our Equity Reports
   {% endif %}
 </ul>
 {% endif %}
+
+
+<!-- Minimal Alternative  -->
+<!-- 
+<ul class="posts">  
+  {% for post in site.posts limit:20 %}  
+     <li>  
+       <span>{{ post.date | date_to_string }}</span> &raquo;  
+       <a href="{{ post.url }}">  
+       {{ post.title }}</a>  
+     </li>  
+  {% endfor %}  
+</ul> -->

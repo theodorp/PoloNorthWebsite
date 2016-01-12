@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://polonorthsecurities.com//blog/auris-dd</loc>
+      <loc>/blog/auris-dd</loc>
       
         <lastmod>2016-01-09T00:00:00-05:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://polonorthsecurities.com//blog/test-markdown</loc>
+      <loc>/blog/test-markdown</loc>
       
         <lastmod>2015-02-20T00:00:00-05:00</lastmod>
       
@@ -34,41 +34,9 @@
   
     
     <url>
-      <loc>http://polonorthsecurities.com//404.html</loc>
+      <loc>/404.html</loc>
       
-        <lastmod>2016-01-12T16:01:05-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://polonorthsecurities.com//aboutus.html</loc>
-      
-        <lastmod>2016-01-12T16:01:05-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>http://polonorthsecurities.com//</loc>
-      
-        <lastmod>2016-01-12T16:01:05-05:00</lastmod>
+        <lastmod>2016-01-12T16:51:55-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,9 +49,26 @@
   
     
     <url>
-      <loc>http://polonorthsecurities.com//blog/</loc>
+      <loc>/aboutus.html</loc>
       
-        <lastmod>2016-01-12T16:01:05-05:00</lastmod>
+        <lastmod>2016-01-12T16:51:55-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>/</loc>
+      
+        <lastmod>2016-01-12T16:51:55-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,24 +81,9 @@
   
     
     <url>
-      <loc>http://polonorthsecurities.com//partnerships.html</loc>
+      <loc>/reports/</loc>
       
-        <lastmod>2016-01-12T16:01:05-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://polonorthsecurities.com//reports.html</loc>
-      
-        <lastmod>2016-01-12T16:01:05-05:00</lastmod>
+        <lastmod>2016-01-12T16:51:55-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -126,9 +96,9 @@
   
     
     <url>
-      <loc>http://polonorthsecurities.com//reports1.html</loc>
+      <loc>/partnerships.html</loc>
       
-        <lastmod>2016-01-12T16:01:05-05:00</lastmod>
+        <lastmod>2016-01-12T16:51:55-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
