@@ -1,7 +1,6 @@
 ---
 layout: page
-title: E.R. 
-css: "/css/index.css"
+title: Our Equity Reports
 ---
 
 <div class="index-posts-title">Equity Reports:</div>
@@ -10,13 +9,13 @@ css: "/css/index.css"
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-      <h2 class="post-title">{{ post.title }}</h2>
-    
-      {% if post.subtitle %}
-      <h3 class="post-subtitle">
-        {{ post.subtitle }}
-      </h3>
-      {% endif %}  
+    <h2 class="post-title">{{ post.title }}</h2>
+  
+    {% if post.subtitle %}
+    <h3 class="post-subtitle">
+      {{ post.subtitle }}
+    </h3>
+    {% endif %}  
     </a>
 
     <p class="post-meta">
@@ -25,7 +24,7 @@ css: "/css/index.css"
   
     <div class="post-entry">
       {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
   
    </article>
